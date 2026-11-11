@@ -115,9 +115,9 @@
       "listingId": 2
     },
     {
-      "id": 2,
-      "userId": 1,
-      "listingId": 5
+      "userId": 4,
+      "listingId": 2,
+      "id": 2
     }
   ]
 }
