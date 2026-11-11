@@ -1,25 +1,123 @@
 {
   "users": [
-    { "id": 1, "name": "Sok Dara", "email": "dara@itc.edu.kh" },
-    { "id": 2, "name": "Chan Srey", "email": "srey@itc.edu.kh" }
+    {
+      "id": 1,
+      "name": "Sok Dara",
+      "email": "dara@itc.edu.kh"
+    },
+    {
+      "id": 2,
+      "name": "Chan Srey",
+      "email": "srey@itc.edu.kh"
+    },
+    {
+      "name": "Sak",
+      "email": "rasmeyrithysak@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "saker",
+      "email": "saker@gmail.com",
+      "id": 4
+    }
   ],
   "categories": [
-    { "id": 1, "name": "Textbooks" },
-    { "id": 2, "name": "Stationery" },
-    { "id": 3, "name": "Electronics" },
-    { "id": 4, "name": "Furniture" },
-    { "id": 5, "name": "Other" }
+    {
+      "id": 1,
+      "name": "Textbooks"
+    },
+    {
+      "id": 2,
+      "name": "Stationery"
+    },
+    {
+      "id": 3,
+      "name": "Electronics"
+    },
+    {
+      "id": 4,
+      "name": "Furniture"
+    },
+    {
+      "id": 5,
+      "name": "Other"
+    }
   ],
   "listings": [
-    { "id": 1, "title": "Operating Systems Concepts (10th ed)", "description": "Good condition, light highlighting in ch. 1-5.", "price": 15, "status": "AVAILABLE", "categoryId": 1, "userId": 1 },
-    { "id": 2, "title": "Casio fx-570 Calculator", "description": "Works perfectly, comes with cover.", "price": 8, "status": "AVAILABLE", "categoryId": 3, "userId": 2 },
-    { "id": 3, "title": "A4 Notebook Bundle (5 pcs)", "description": "Unused, ruled pages.", "price": 3, "status": "AVAILABLE", "categoryId": 2, "userId": 1 },
-    { "id": 4, "title": "Study Desk Lamp", "description": "LED, adjustable arm.", "price": 6, "status": "SOLD", "categoryId": 4, "userId": 2 },
-    { "id": 5, "title": "Database Systems Textbook", "description": "Some wear on the cover.", "price": 12, "status": "AVAILABLE", "categoryId": 1, "userId": 2 },
-    { "id": 6, "title": "USB-C Hub 4-in-1", "description": "HDMI + 2x USB-A + USB-C PD.", "price": 10, "status": "AVAILABLE", "categoryId": 3, "userId": 1 }
+    {
+      "id": 1,
+      "title": "Operating Systems Concepts (10th ed)",
+      "description": "Good condition, light highlighting in ch. 1-5.",
+      "price": 15,
+      "status": "AVAILABLE",
+      "categoryId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Casio fx-570 Calculator",
+      "description": "Works perfectly, comes with cover.",
+      "price": 8,
+      "status": "AVAILABLE",
+      "categoryId": 3,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "A4 Notebook Bundle (5 pcs)",
+      "description": "Unused, ruled pages.",
+      "price": 3,
+      "status": "AVAILABLE",
+      "categoryId": 2,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Study Desk Lamp",
+      "description": "LED, adjustable arm.",
+      "price": 6,
+      "status": "SOLD",
+      "categoryId": 4,
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "title": "Database Systems Textbook",
+      "description": "Some wear on the cover.",
+      "price": 12,
+      "status": "AVAILABLE",
+      "categoryId": 1,
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "title": "USB-C Hub 4-in-1",
+      "description": "HDMI + 2x USB-A + USB-C PD.",
+      "price": 10,
+      "status": "AVAILABLE",
+      "categoryId": 3,
+      "userId": 1
+    },
+    {
+      "title": "Books",
+      "description": "cool book ngl",
+      "price": 12,
+      "categoryId": 1,
+      "userId": 4,
+      "status": "AVAILABLE",
+      "id": 7
+    }
   ],
   "favorites": [
-    { "id": 1, "userId": 1, "listingId": 2 },
-    { "id": 2, "userId": 1, "listingId": 5 }
+    {
+      "id": 1,
+      "userId": 1,
+      "listingId": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "listingId": 5
+    }
   ]
 }
